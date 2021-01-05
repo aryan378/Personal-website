@@ -1,0 +1,336 @@
+body{
+    margin: 0px;
+}
+
+/* Header style here */
+
+.wrap{
+    width: 90%;
+    margin: auto;
+} 
+.header-top{
+    overflow: hidden;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FF3785;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 13px 20px;
+    letter-spacing: 1px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+.menu ul li a:hover {
+    border-top: 4px solid #FF3785;
+    border-bottom: 4px solid #FF3785;
+    transition: 1s;
+}
+
+.header{
+    width: 45%;
+    float: left;
+}
+.header img{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.header h1{
+    color: #363958;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+.header h2{
+    color: #FF3785;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: -75px;
+}
+.header p{
+    font-family: roboto;
+    font-size: 20px;
+    margin-top: -47px;
+}
+.header-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #FF3785 ,#FF4B93);
+    padding: 13px 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a.header-button:hover {
+    background: #db256b;
+    color: #ffffff;
+}
+
+/* End header style here */
+
+
+
+
+/* About section style stat here */
+.about{
+    overflow: hidden;
+}
+.about-content{
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+}
+.about-content img{
+    width: 100%;
+    margin-top: 30px;
+}
+.about-content h1{
+    color: #363958;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+.about-content h2{
+    color: #FF3785;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: -75px;
+}
+.about-content p{
+    font-family: roboto;
+    font-size: 20px;
+    margin-top: -47px;
+    line-height: 1.6;
+}
+.header-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #FF3785 ,#FF4B93);
+    padding: 13px 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a.header-button:hover {
+    background: #db256b;
+    color: #ffffff;
+}
+
+/* About style End here */
+
+
+
+
+/* Latest working style start here */
+
+.latest{
+    margin-top: 50px;
+    background-color: #F8F9FC;
+    min-height: 750px;
+}
+.latest:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.latest h1{
+    text-align: center;
+    padding-top: 115px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+}
+.latest span{
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #FF3785;  
+}
+.working-portfolio{
+    width: 29%;
+    float: left;
+    margin: 50px 20px;
+}
+.working-portfolio img{
+    width: 100%;
+}
+.working-project{
+    width: 80%;
+    margin: auto;
+}
+.working-portfolio h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #363958;
+    font-family: roboto;
+    text-align: center;
+}
+.working-portfolio p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-family: roboto;
+    text-align: center;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#shadow-effect{
+    box-shadow: 3px 3px 15px gray;
+    border-radius: 8px;
+}
+/* latest working style End here */
+
+
+
+
+ /* My working process start here */
+
+.work-process h1{
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+}
+
+.work-process span{
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #FF3785;  
+}
+
+.work-process hr{
+    width: 50px;
+    border: 3px solid #FF3785;
+}
+.work-process p{
+    font-family: roboto;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;   
+}
+iframe#video-content{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+ /* My working process End here */
+
+
+
+
+ /* Work inquiry style start here*/
+
+ .working-inquiry{
+     margin-top: 60px;
+     min-height: 280px;
+ }
+
+ .inquiry{
+    background-image: url("images/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 800px;
+    border-radius: 35px;
+    margin: auto;
+    position: relative;
+}
+.inquiry h1{
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 58px;
+    padding-top: 20px;
+    padding-left: 52px;
+    float: left;
+}
+
+
+a#button{
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #FF3785 ,#FF4B93);
+    padding: 15px 29px;
+    border-radius: 9px;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    bottom: 50%;
+    right: 44px;
+    transform: translateY(50%);
+}
+a#button:hover{
+    background: #db256b;
+    color: #ffffff;
+}
+
+ /* Work inquiry style End here*/
+
+
+
+
+ /* footer style start here */
+.footer{
+    min-height: 250px;
+}
+.footer h2{
+    color: #696871;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+.footer h3{
+    color: #FF3785;
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+.icons-image{
+    float: left;
+    padding: 0 3px;
+}
+.icons{
+    width: 9%;
+    margin: auto;
+}
+.icons-image img{
+    width: 30px;
+}
+
+ /* footer style End here */
+
+
